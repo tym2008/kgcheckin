@@ -3,7 +3,8 @@ on:
   workflow_dispatch:
   # push:
   schedule:
-    - cron: 12 16 * * *
+    - cron: 18 0 * * *
+      timezone: Asia/Shanghai  
 jobs:
   run:
     runs-on: ubuntu-latest
